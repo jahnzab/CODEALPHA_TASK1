@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+     background-color: hsla(0, 0%, 80%, 1);
+}
+
+header {
+    background-color: hsla(240, 60%, 50%, 1); ;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+h2{
+color:hsla(240, 60%, 50%, 1); 
+
+}
+
+
+h4{
+
+ color:hsla(240, 60%, 50%, 1); 
+
+}
+h3{
+color:hsla(240, 60%, 50%, 1); 
+
+}
+nav {
+    background-color: green;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 2em;
+}
+
+
+.project {
+    margin-bottom: 1em;
+}
+
+/* Style for the login modal */
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
